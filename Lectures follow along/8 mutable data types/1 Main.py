@@ -43,3 +43,39 @@ fruits_set = set(fruits_list)
 print(fruits_set) # {'banana', 'orange', 'apple'}
 
 
+#Dictionary
+months = {}
+months["January"] = 31
+months["February"] = 28
+months["March"] = 31
+months["April"] = 30
+months["May"] = 31
+print(len(months)) # 5
+print(months) # {'January': 31, 'February': 28, 'March': 31, 'April': 30, 'May': 31}
+print(months.keys()) #show the keys of months ['January', 'February', 'March', 'April', 'May']
+print(months.values()) #Shows values of the motnh [31, 28, 31, 30, 31]
+print(months.items())
+# shows both keys and values([('January', 31), ('February', 28), ('March', 31), ('April', 30), ('May', 31)])
+print("June" in months) # False
+print("January" in months) # True
+
+#Looping through dictonary(months)
+for key, value in months.items():
+print("Key=", key, ", Value=", value)
+    # Key= January , Value= 31
+    # Key= February , Value= 28
+    # Key= March , Value= 31
+    # Key= April , Value= 30
+    # Key= May , Value= 31
+
+
+# Dictionaries vs. lists
+- print({"a":7,"b":5}=={"b":5,"a":7}) # prints True
+- print(["a", "b"] == ["b", "a"])
+
+
+
+
+
+
+
