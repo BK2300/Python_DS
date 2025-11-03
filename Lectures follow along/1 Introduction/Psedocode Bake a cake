@@ -1,0 +1,28 @@
+START
+
+INPUT number_of_people
+
+SET flour = 100 grams * number_of_people
+SET sugar = 50 grams * number_of_people
+SET eggs = 1 * number_of_people
+
+DISPLAY "Preheat oven to 180°C"
+
+MIX flour, sugar, and eggs in a bowl
+STIR mixture until smooth
+
+DISPLAY "Pour batter into baking pan"
+
+PLACE pan in oven
+WAIT 30 minutes
+
+IF cake is golden brown THEN
+    DISPLAY "Cake is done!"
+ELSE
+    DISPLAY "Bake for 5 more minutes"
+END IF
+
+REMOVE cake from oven
+DISPLAY "Let it cool for 10 minutes"
+
+END

@@ -1,0 +1,26 @@
+Nominal: Kategorier uden rækkefølge (fx farve: "hvid").
+Ordinal: Kategorier med rækkefølge (fx “cuteness” vurderet fra lav til høj).
+Numeric: Talværdier (fx vægt: 65).
+
+
+string = ordinal and nominal
+integer, float or double = Numerical (Integers has no decimal points)
+Boolean =Yes or No
+
+Use "Type" to check the datatype
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -5,7 +5,7 @@
 #input: we ask the user if the weather is good or not(True /False)
 # output: The program outputs if the lecture will be held on site or online
 
-# declaration of canstants, variables, and data types
+# declaration of constants, variables, and data types
 weatherGood = True
 inDenmark = True
 

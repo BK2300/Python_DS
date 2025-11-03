@@ -1,0 +1,34 @@
+* I descided to go with pycharm instead of VScode
+
+
+* Python Interpreter
+Source code -> compiler -> byte code -> Vitual machine -> Running code
+
+
+* psedocode
+Create a psedocode for caking a cake
+
+
+* Flowchart
+A flowchart is a graphical representations of steps, used for representing algorithms and
+programming logic. It helps to clarify complex processes.
+
+    oval: Represents the start and end of a process
+    rectagle: denotes a process or operation step
+    arrow: indicats the flow between steps
+    Diamond: Signifies a point requiring a decision (YES/NO)
+    PARRALELOGRAM: used to input or output operations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
