@@ -21,8 +21,8 @@ def get_greetign(name):
     return f"hi {name}"
 
 message = get_greetign("Long")
-file = open("content.txt", "w")
-file.write(message)
+# file = open("content.txt", "w")
+# file.write(message) #Creates a txt file for us. a bit more advanced then we're used to yet
 
 
 
